@@ -23,6 +23,8 @@ module.exports = {
             },
             textColor:{
               'soft':'hsl(345, 95%, 68%)',
+                'date':'#2C2C44',
+
             },
             inset:{
                 '62':'15.5rem',
@@ -34,6 +36,14 @@ module.exports = {
             letterSpacing:{
               'large':'0.5rem',
                 'small':'0.1rem',
+            },
+            screens:{
+                'fold':'300px',
+                'se':'330px',
+                'imax':'390px',
+                'duo':'520px',
+                'ipro':'1020px',
+                'd':'1900px',
             },
         },
     },
