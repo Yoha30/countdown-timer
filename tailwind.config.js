@@ -40,6 +40,7 @@ module.exports = {
             screens:{
                 'fold':'300px',
                 'se':'330px',
+                'nse':'370px',
                 'imax':'390px',
                 'duo':'520px',
                 'ipro':'1020px',

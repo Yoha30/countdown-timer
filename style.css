@@ -634,6 +634,10 @@ video {
   margin-left: 0.5rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .flex {
   display: flex;
 }
@@ -810,6 +814,10 @@ video {
 }
 
 @media (min-width: 300px) {
+  .fold\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .fold\:w-80 {
     width: 20rem;
   }
@@ -829,9 +837,20 @@ video {
     margin-top: 10rem;
   }
 
-  .se\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .se\:mt-20 {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 370px) {
+  .nse\:mt-40 {
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 390px) {
+  .imax\:mt-40 {
+    margin-top: 10rem;
   }
 }
 
